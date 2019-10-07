@@ -6,7 +6,7 @@ ul{
     display: inline;
 }
 ul li{
-    padding-right: 25px;
+    padding-right: 50px;
     display: inline;
     vertical-align: middle;
 }
@@ -20,7 +20,7 @@ ul li{
     /*PLACEHOLDER */
 }
 #logo{
-    height: 150px;
+    height: 200px;
 }
 #header2{
     color: rgba(255,255,255,0.5);
@@ -42,27 +42,40 @@ ul li{
     color: #ffffff;
     line-height: 1.2;
     vertical-align: bottom;
-    margin-top: 550px;
+    margin-top: 500px;
     text-align: center;
+    margin-bottom: 0px;
 }
 
 /* NAV BAR */
 
 .doublebox{
-    height: 870px;
+    height: 930px;
     width: 99.9%;
     display: inline-block;
 }
-.leftbox{
-    width: 49.9%;
-    height: 870px;
+.leftblock{
+    width: 49.8%;
+    height: 930px;
     display: inline-block;
+}
+.rightblock{
+    width: 49.8%;
+    height: 930px;
+    display: inline-block;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 30px;
 }
 #founderwithboxes{
     background-image: url(/images/founder-with-boxes.jpeg);
-    height: 870px;
+    height: 930px;
     background-repeat: no-repeat;
-    width: 49.9%;
+    width: 49.8%;
+    background-size: cover;
+    margin: 40px 0px 0px;
 }
 .boxtext{
     color: #ffffff;
@@ -70,5 +83,13 @@ ul li{
     font-family: "Roboto", sans-serif;
     padding-top: 30%;
     text-align: center;
-    
+    margin: 40px 0px 0px;
+}
+.paragraphs{
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-size: 30px;
+    line-height: 1.5;
+    padding: 240px 46px 0px;
+    vertical-align: middle;
 }
