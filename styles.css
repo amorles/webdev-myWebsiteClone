@@ -1,4 +1,5 @@
 /* CSS CODE HERE */
+
 /* NAV BAR */
 
 ul{
@@ -47,19 +48,19 @@ ul li{
     margin-bottom: 0px;
 }
 
-/* NAV BAR */
+/* FIRST SPLIT */
 
 .doublebox{
     height: 930px;
     width: 99.9%;
     display: inline-block;
 }
-.leftblock{
+.Aimgblock{
     width: 49.8%;
     height: 930px;
     display: inline-block;
 }
-.rightblock{
+.Atxtblock{
     width: 49.8%;
     height: 930px;
     display: inline-block;
@@ -92,4 +93,30 @@ ul li{
     line-height: 1.5;
     padding: 240px 46px 0px;
     vertical-align: middle;
+}
+
+/* SECOND SPLIT */
+
+#louis{
+    background-image: url(/images/statia.png);
+    height: 930px;
+    background-repeat: no-repeat;
+    width: 49.8%;
+    background-size: cover;
+    margin: 40px 0px 0px;
+}
+.Bimgblock{
+    width: 49.8%;
+    height: 810px;
+    display: inline-block;
+}
+.Btxtblock{
+    width: 49.8%;
+    height: 810px;
+    display: inline-block;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 30px;
 }
