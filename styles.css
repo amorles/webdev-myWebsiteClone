@@ -34,9 +34,20 @@ ul li{
     color: white;
     padding: 20px 0px;
     font-family: 'PT Sans Narrow', sans-serif;
-    font-weight: bold;
     font-size: 9pt;
+    display: inline;
 }
+/*
+.lisocialmedia{
+    padding-right: 0px;
+    vertical-align: middle;
+    width: 55px;
+    margin-right: 0px;
+}
+*/
+
+/* HERO */
+
 #Herotext{
     font-size: 65px;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -149,7 +160,7 @@ ul li{
 
 /* ALL BUTTONS */
 
-#Subscribe{
+#MoreAboutUs{
 background-color: #17a2b8;
 border-color: #17a2b8;
 font-family: Roboto, sans-serif;
@@ -157,4 +168,49 @@ font-size: 25px;
 color: #ffffff;
 text-align: center;
 padding: 6px 12px
+}
+#Donate{
+    background-color: #28a745;
+    border-color: #28a745;
+    font-family: Roboto, sans-serif;
+    font-size: 25px;
+    color: #ffffff;
+    text-align: center;
+    padding: 6px 12px
+}
+#BeAnAmbassador, #Subscribe{
+    background-color: #007bff;
+    border-color: #007bff;
+    font-family: Roboto, sans-serif;
+    font-size: 25px;
+    color: #ffffff;
+    text-align: center;
+    padding: 6px 12px
+}
+#ContactUs{
+    background-color: #ffc107;
+    border-color: #ffc107;
+    font-family: Roboto, sans-serif;
+    font-size: 25px;
+    color: #212529;
+    text-align: center;
+    padding: 6px 12px
+}
+
+/* FORM STUFF */
+#form{
+    display: inline-block;
+    width: 80%;
+    height: 190px;
+}
+.formname{
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 14px;
+    font-size: 25px;
+}
+#formemail{
+    font-size: 25px;
+    width: 560px;
+    padding-right: 0px;
 }

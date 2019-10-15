@@ -12,31 +12,35 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Warm Ears, Warm Hearts Foundation Inc.</title>
     <script src="https://kit.fontawesome.com/dff61d7294.js" crossorigin="anonymous"></script>
+        <!-- This script pulls a collection of icons to use. -->
 </head>
 <body>
 <!-- HEADER -->
 <div id="fullheader">
     <nav>
      <ul id="header1">
-        <li><img src="images/logo.png" alt="logo" id="logo"></li>
+        <li class="li"><img src="images/logo.png" alt="logo" id="logo"></li>
      </ul>
      <ul id="header2">
-        <li>About</li>
-        <li>Donate</li>
-        <li>Ambassadors</li>
-        <li>Sponsors</li>
-        <li>Collections</li>
-        <li>History</li>
-        <li>Contact</li>
+        <li >About</li>
+        <li >Donate</li>
+        <li >Ambassadors</li>
+        <li >Sponsors</li>
+        <li >Collections</li>
+        <li >History</li>
+        <li >Contact</li>
      </ul>
      <ul id="header3">
-        <li></li>
+        <li><i class="fab fa-4x fa-facebook-f" class="lisocialmedia"></i></li>
+        <li><i class="fab fa-4x fa-instagram" class="lisocialmedia"></i></li>
+        <li><i class="fab fa-4x fa-twitter" class="lisocialmedia"></i></li>
+        <li><i class="fab fa-4x fa-linkedin" class="lisocialmedia"></i></li>
      </ul>
     </nav>
     <h4 id="Herotext">"A touch of warmth to help <br> weather the cold."</h4>
 
 <!-- FIRST SPLIT--> 
-    <!-- The three splits utilize a combo of letters [A, B, or C] and either [imgblock, txtblock]. The first tag controls the height of each .doublebox set while the latter determines if it is an image or a textbox. -->
+    <!-- The three splits utilize a combo of letters [A, B, or C] and either [imgblock, txtblock]. The first tag controls the height of each .doublebox set while the latter determines if it is an image or a textbox and formats it properly.. -->
 <div class="A doublebox">
     <div class="A imgblock" id="founderwithboxes">
         <h3 class="boxtext">What is <br> Warm Ears, Warm <br> Hearts?</h3>
@@ -45,7 +49,7 @@
         <p class="paragraphs">The Warm Ears, Warm Hearts Foundation is a Florida based nonprofit dedicated to collecting and giving winter clothing to children in need. Started by one lone high school student, Alejandro Morles launched this project at the age of 15. The project has grown to become a legal nonprofit with connections to multiple schools.</p>
         <br>
         <br>
-        <button id="Subscribe">
+        <button id="MoreAboutUs">
              More About Us
              <i class="fa fa-info-circle"></i>
          </button>
@@ -59,11 +63,21 @@
         <p class="paragraphs">Warm Ears, Warm Hearts is a foundation dedicated to helping children in need. However, without community support, we wouldn't be able to act.</p>
         <br>
         <br>
-        <button id="Subscribe">
-             More About Us
-             <i class="fa fa-info-circle"></i>
-            </button>
-     </div>
+        <span>
+            <button id="Donate">
+                Donate
+                 <i class="fa fa-money-bill-alt"></i>
+             </button>
+             <button id="BeAnAmbassador">
+                Be An Ambassador
+                 <i class="fa fa-user"></i>
+             </button>
+             <button id="ContactUs">
+                Contact Us
+                 <i class="fa fa-bullhorn"></i>
+             </button>
+        </span>
+    </div>
     <div class="B imgblock" id="louis">
         <h3 class="boxtext">We need you!</h3>
     </div>
@@ -83,10 +97,17 @@
         <p class="paragraphs">Warm Ears, Warm Hearts is constantly expanding and conducting new programs. Always know what we're up to next by subscribing to our mailing list. </p>
         <br>
         <br>
+        <form id="form">
+            <input class="formname" type="text" placeholder="First name"/> <br>
+            <input class="formname" type="text" placeholder="Last name"/> <br>
+            <span>
+            <input id="formemail" type="text" placeholder="Email address"/>
+        </form>
         <button id="Subscribe">
              Subscribe!
-             <i class="fa fa-info-circle"></i>
-         </button>
+             <i class="fa fa-envelope"></i>
+        </button>
+        </span>
     </div>
  </div>
  
