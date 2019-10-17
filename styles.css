@@ -13,7 +13,7 @@ ul li{
 }
 #fullheader{
     height: 900px;
-    background-image: url("../images/box.jpeg");
+    background-image: url("images/box.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -103,7 +103,7 @@ ul li{
     display: inline-block;
 }
 #founderwithboxes{
-    background-image: url("../images/founder-with-boxes.jpeg");
+    background-image: url("images/founder-with-boxes.jpeg");
     height: 930px;
     background-repeat: no-repeat;
     width: 49.8%;
